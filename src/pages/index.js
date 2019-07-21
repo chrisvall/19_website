@@ -11,6 +11,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="Hero">
       <div className="HeroGroup">
+        <h3>Brancht test</h3>
         <h1>Hi, I’m Christine, <br></br> UX/UI designer with a passion for code.</h1>
         <p>UI / UX / App / Web / Teaching / Freelance / Berlin </p>
       </div>
