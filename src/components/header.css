@@ -1,18 +1,29 @@
-/* 
 
-  margin: `0 auto`,
-  maxWidth: 960,
-  padding: `1.45rem 1.0875rem`,
+.Header {
+  max-width: 1000px;
+  position: fixed;
+  height: 20px;
+  padding-top:50px;
+  right: 0;
+}
+
+.HeaderGroup {
+  background:blue;
+}
+
+.sticky {
+  background-color:pink;
+}
 
 
-<h1 style={{ margin: 0 }}>
-  <Link
-    to="/"
-    style={{
-      color: `white`,
-      textDecoration: `none`,
-    }
+/* .Header a:last-child {
+  margin-right: 0;
+} */
 
-    {siteTitle}
-  </Link> */
-
+.Header a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  float: left;
+  display: block;
+}
