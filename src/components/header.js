@@ -8,7 +8,6 @@ const Header = ({ siteTitle }) => (
 
   <div className="Header">
     <div className="HeaderGroup">
-      {/* <Link to="/"><img width="30" /></Link> */}
       {/* <Link to="/">Home</Link> */}
       <Link to="/work">work</Link>
       <Link to="/articles">articles</Link>
