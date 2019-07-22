@@ -6,14 +6,15 @@
 /////// COLORS //////////
 $bg-color: #f4f4f4;
 
+////// PAGE MARGIN /////
 
-
+$page-margin: 6%;
 
 /////// BASE //////////
 
 body{
   // max-width: 1000px;
-  margin: 0 5%;
+  margin: 0 $page-margin;
   font-family: 'Open Sans', sans-serif;
 
   font: size 16px;
