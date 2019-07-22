@@ -1,7 +1,13 @@
 
+/////// FONTS //////////
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800');
 
+
+/////// COLORS //////////
 $bg-color: #f4f4f4;
+
+
+/////// BASE //////////
 
 body{
   max-width: 1000px;
@@ -12,6 +18,10 @@ body{
   -webkit-font-smoothing:antialiased;
   line-height: 1.3;
   background-color: $bg-color;
+
+  a {
+    transition: 1s;
+  }
 }
 
 
@@ -22,7 +32,7 @@ body{
 
 .Hero h1 {
   font-family: 'Open Sans', sans-serif;
-  padding-top:50px;
+  padding-top:30px;
   font-size: 50px;
   font-weight: 800;
   line-height: 1.2;

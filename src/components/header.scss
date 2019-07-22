@@ -4,10 +4,11 @@
 .Header {
 
   position: fixed;
-  padding: 20px 0;
+  padding: 40px 0;
   width: 1000px;
   z-index: 100;
-  background-color: $bg-color;
+  // for scroll
+  transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1.0);
 }
 
 .HeaderGroup {
@@ -31,3 +32,14 @@
 .Header a:hover {
   opacity: 0.7;
 } 
+
+
+.Header {
+ 
+}
+
+.HeaderScrolled {
+  background: $bg-color;
+  padding: 20px 0;
+
+}

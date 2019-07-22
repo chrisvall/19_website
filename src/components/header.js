@@ -2,39 +2,57 @@ import React from "react"
 import Link from 'gatsby-link'
 import './header.scss'
 
+// static header
+// const Header = ({ siteTitle }) => (
+//   <div className="Header">
+//     <div className="HeaderGroup">
+//       {/* <Link to="/">Home</Link> */}
+//       <Link to="/work">work</Link>
+//       <Link to="/articles">articles</Link>
+//       <Link to="/about">about</Link>
+//       <Link to="/contact">contact</Link>
+//     </div>
+//   </div>
+// )
 
-const Header = ({ siteTitle }) => (
 
+class Header extends React.Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+      hasScrolled: false
+    }
+  }
 
-  <div className="Header">
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll)
+}
+
+handleScroll = (event) => {
+  const scrollTop = window.pageYOffset
+
+  if (scrollTop > 50) {
+    this.setState({ hasScrolled: true })
+  } else {
+    this.setState({ hasScrolled: false })
+  }
+}
+
+  render() {
+    return (
+      <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
     <div className="HeaderGroup">
-      {/* <Link to="/">Home</Link> */}
       <Link to="/work">work</Link>
       <Link to="/articles">articles</Link>
       <Link to="/about">about</Link>
       <Link to="/contact">contact</Link>
     </div>
   </div>
+    )
+  }
+}
 
 
-)
-
-
-// window.onscroll = function() {myFunction()};
-
-// var navbar = document.getElementsByClassName("Header");
-// var sticky = navbar.offsetTop;
-
-// function myFunction() {
-//   if (window.pageYOffset >= sticky) {
-//     navbar.className.add("sticky")
-//   } 
-// }
-
-
-
-
-
-
-
-export default Header
+// export default Header
+ export default Header
