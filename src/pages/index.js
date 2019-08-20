@@ -24,7 +24,7 @@ const IndexPage = () => (
         text= "Mika – Krebs Therapie Assistent App 
         für iOS und Android"/>
         <Card 
-        image={require('../images/imgtest2.png')}
+        image={require('../images/mira.jpg')}
         title="UX / UI / App / Web / Brand Design "
         text= "VERA – App zur einfachen Verwaltung von Verträge & Dokumente "/>
          <Card 
@@ -46,6 +46,8 @@ const IndexPage = () => (
     </div>
   </div>
 
+  <Link to="/test/">Testpage</Link>
+  <Link to="/work/timetrack/">timetrack</Link>
  
     <Link to="/page-2/">Go to page 2</Link>
  
