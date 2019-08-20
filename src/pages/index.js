@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+    <div className="Margin">
     <SEO title="Home" />
     <div className="Hero">
       <div className="HeroGroup">
@@ -15,6 +16,7 @@ const IndexPage = () => (
         <p>UI / UX / App / Web / Teaching / Freelance / Berlin </p>
       </div>
     </div>
+    
 
  <div className="Cards">
     <div className="CardGroup">
@@ -50,7 +52,7 @@ const IndexPage = () => (
   <Link to="/work/timetrack/">timetrack</Link>
  
     <Link to="/page-2/">Go to page 2</Link>
- 
+    </div>
 
  
   </Layout>

@@ -14,7 +14,7 @@ $page-margin: 6%;
 
 body{
   // max-width: 1000px;
-  margin: 0 $page-margin;
+  margin: 0;
   font-family: 'Open Sans', sans-serif;
 
   font: size 16px;
@@ -25,6 +25,10 @@ body{
   a {
     transition: 1s;
   }
+}
+
+.Margin {
+  margin: 0 $page-margin;
 }
 
 
@@ -42,3 +46,11 @@ body{
   padding-bottom: 0;
   margin-top:0;
 }
+
+
+// ADD TO COMPONENTS
+.Portfolio img{
+  width: 100%;
+}
+
+
