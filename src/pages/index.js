@@ -23,6 +23,7 @@ const IndexPage = () => (
 
  
       <Card 
+        link="/work/timetrack/"
         image={require('../images/imgtest1.jpg')}
         title="UX / UI / App / Brand Design"
         text= "Mika – Krebs Therapie Assistent App 

@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const Card = props => (
     <div className="Card">
-         <Link to="/work/timetrack/">
+        <Link to={props.link}>
         <img src={props.image} />
         <h3>{props.title}</h3>
         <div class="Stroke"></div>
