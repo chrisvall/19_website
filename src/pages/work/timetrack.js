@@ -6,9 +6,8 @@ import SEO from "../../components/seo"
 import Img from "gatsby-image"
 
 // fix const name
-const SecondPage = () => (
+const PortfolioPage = () => (
   <Layout>
-
     <SEO title="TimeTrack" />
     <div className="Margin">
         <div className="Hero">
@@ -23,14 +22,14 @@ const SecondPage = () => (
   
     {/* css for now in layout.scss */}
     <div className="Portfolio">
-    <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-01@2x.jpg')} />
-    <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-02@2x.jpg')} />
-    <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-03@2x.jpg')} />
-    <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-04@2x.jpg')} />
-    <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-05@2x.jpg')} />
-    <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-06@2x.jpg')} />
-    <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-07@2x.jpg')} />
-    <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-08@2x.jpg')} />
+      <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-01@2x.jpg')} />
+      <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-02@2x.jpg')} />
+      <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-03@2x.jpg')} />
+      <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-04@2x.jpg')} />
+      <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-05@2x.jpg')} />
+      <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-06@2x.jpg')} />
+      <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-07@2x.jpg')} />
+      <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-08@2x.jpg')} />
     </div>
 
   
@@ -40,4 +39,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default PortfolioPage

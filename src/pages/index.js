@@ -20,11 +20,14 @@ const IndexPage = () => (
 
  <div className="Cards">
     <div className="CardGroup">
+
+ 
       <Card 
         image={require('../images/imgtest1.jpg')}
         title="UX / UI / App / Brand Design"
         text= "Mika – Krebs Therapie Assistent App 
         für iOS und Android"/>
+      
         <Card 
         image={require('../images/mira.jpg')}
         title="UX / UI / App / Web / Brand Design "
