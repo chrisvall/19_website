@@ -1,8 +1,15 @@
+@import "layout.scss";
 
 .Backarrow{
     position: fixed;
     z-index: 10000;
     padding: 40px 0;
+    width: 13px;
+  }
+
+  .Backarrow:hover {
+      opacity: 0.7;
+      transition: $trans-hover;
   }
 
 
