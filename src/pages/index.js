@@ -13,12 +13,10 @@ const IndexPage = () => (
     <SEO title="Home" />
 
     <Hero 
-      headline = "Hi, I’m Christine, <br></br> UX/UI designer with a <br></br>passion for code."
+      headline = "Hi, I’m Christine, UX/UI designer with a passion for code."
       skills="UI / UX / App / Web / Teaching / Freelance / Berlin"
     />
 
-
-    
 
  <div className="Cards">
     <div className="CardGroup">
@@ -29,7 +27,6 @@ const IndexPage = () => (
         title="UX / UI / App / Brand Design"
         text= "Mika – Krebs Therapie Assistent App 
         für iOS und Android"/>
-      
         <Card 
         image={require('../images/mira.jpg')}
         title="UX / UI / App / Web / Brand Design "

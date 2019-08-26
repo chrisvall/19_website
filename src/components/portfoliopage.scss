@@ -12,23 +12,11 @@
       transition: $trans-hover;
   }
 
-
-.Portfolio img{
-    width: 100%;
-    // fix
-    margin: -4px;
+  .Portfolio-Hero {
+    padding-top: 50px;
   }
 
-  .SpacerHack {
-      height: 50px;
-  }
 
-  .Portfolio p {
-    width: 70%;
-    margin: auto;
-    padding: 50px 0;
-    font-size: 15px;
-    text-align: center;
-    opacity: 0.8;
 
-  }
+
+
