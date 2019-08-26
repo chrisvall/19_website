@@ -1,9 +1,9 @@
-@import "layout.scss";
+@import "variables.scss";
 
 .Backarrow{
     position: fixed;
     z-index: 10000;
-    padding: 40px 0;
+    padding: 35px 0;
     width: 13px;
   }
 
@@ -18,7 +18,7 @@
     // fix
     margin: -3px;
   }
-  
-  .Portfolio h1 {
-      padding-top: 80px;
+
+  .SpacerHack {
+      height: 50px;
   }

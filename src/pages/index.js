@@ -10,11 +10,11 @@ const IndexPage = () => (
   <Layout>
     <div className="Margin">
     <SEO title="Home" />
-    <div className="Hero">
-      <div className="HeroGroup">
-        <h1>Hi, I’m Christine, <br></br> UX/UI designer with a passion for code.</h1>
-        <p>UI / UX / App / Web / Teaching / Freelance / Berlin </p>
-      </div>
+      <div className="Hero">
+        <div className="HeroGroup">
+          <h1>Hi, I’m Christine, <br></br> UX/UI designer with a <br></br>passion for code.</h1>
+          <p>UI / UX / App / Web / Teaching / Freelance / Berlin </p>
+        </div>
     </div>
     
 

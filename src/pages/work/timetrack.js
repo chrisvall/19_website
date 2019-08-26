@@ -12,9 +12,10 @@ const PortfolioPage = () => (
   <Layout>
     <SEO title="TimeTrack" />
     <div className="Margin">
+      <div className="Backarrow"><Link to="/"> <img src={back} /></Link></div>
         <div className="Hero">
-            <div className="HeroGroup Portfolio">
-            <div className="Backarrow"><Link to="/"> <img src={back} /></Link></div>
+            <div className="HeroGroup">
+            <div className="SpacerHack"></div>
                 <h1>TimeTrack – an app <br></br>for lorem ipsum dorlor sit darum.</h1>
                 <p>APP DESIGN | UI/UX | WIREFRAMING | SPECS </p>
             </div>

@@ -1,3 +1,5 @@
+@import "layout.scss";
+@import "variables.scss";
 /* /move card group to layouts later */
 .CardGroup {
     display: grid;
@@ -12,11 +14,10 @@
 .Stroke {
     width: 30px;
     height: 2px;
-    background-color: black;
+    background-color: $text-color;
 }
 
 .Card h3 {
-    color: black;  
     font-size: 13px;
     font-weight: 400;
     margin: 0 20 0 50;
@@ -26,7 +27,6 @@
 
 .Card h2 {
     width: 80%;
-    color: black;  
     font-size: 28px;
     margin: 0 5 0 10;
     font-weight: 700;

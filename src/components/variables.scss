@@ -1,0 +1,15 @@
+
+/////// COLORS //////////
+$bg-color: #f4f4f4;
+$text-color: #2C3043;
+
+h1, h2, h3, a, p {
+  color: $text-color;
+}
+
+////// PAGE MARGIN /////
+
+$page-margin: 6%;
+
+///// TRANSITION ///////
+$trans-hover: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1.0);
