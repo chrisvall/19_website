@@ -14,8 +14,8 @@
 .HeaderGroup {
   max-width: 300px;
   float: right;
-
-  margin-right: calc(#{$page-margin}*2);;
+  margin-right: $page-margin;
+  // margin-right: calc(#{$page-margin}*2);
   height: 20px;
 }
 
