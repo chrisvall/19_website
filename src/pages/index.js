@@ -22,7 +22,6 @@ const IndexPage = () => (
 
  <div className="Cards">
     <div className="CardGroup">
-
  
       <Card 
         link="/work/timetrack/"
