@@ -28,6 +28,7 @@ const IndexPage = () => (
         text= "Mika – Krebs Therapie Assistent App 
         für iOS und Android"/>
         <Card 
+        link="/work/bbs/"
         image={require('../images/mira.jpg')}
         title="UX / UI / App / Web / Brand Design "
         text= "VERA – App zur einfachen Verwaltung von Verträge & Dokumente "/>
