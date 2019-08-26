@@ -11,8 +11,8 @@ const PortfolioPage = () => (
     <SEO title="TimeTrack" />
     <div className="Margin">
         <div className="Hero">
-            <div className="HeroGroup">
-            <div><Link to="/">Back</Link></div>
+            <div className="HeroGroup Portfolio">
+            <div className="Backarrow"><Link to="/">Back</Link></div>
                 <h1>TimeTrack – an app <br></br>for lorem ipsum dorlor sit darum.</h1>
                 <p>APP DESIGN | UI/UX | WIREFRAMING | SPECS </p>
             </div>

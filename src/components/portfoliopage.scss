@@ -1,0 +1,17 @@
+
+.Backarrow{
+    position: fixed;
+    z-index: 10000;
+    padding: 40px 0;
+  }
+
+
+.Portfolio img{
+    width: 100%;
+    // fix
+    margin: -3px;
+  }
+  
+  .Portfolio h1 {
+      padding-top: 80px;
+  }
