@@ -33,12 +33,6 @@ const PortfolioPage = () => (
         intertwining UX and UI with a minimalistic approach is what created TimeTrack’s pure 
         look and solid user experience.</p>
       <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-02@2x.jpg')} />
-
-  
-
-    
-     
-
       <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-03@2x.jpg')} />
       <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-04@2x.jpg')} />
       <img src={require('../../images/portfolio/timetrack/Vallaure-TimeTrack-05@2x.jpg')} />
