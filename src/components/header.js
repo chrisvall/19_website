@@ -31,8 +31,9 @@ handleScroll = (event) => {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
     <div className="HeaderGroup">
-      <Link to="/work">work</Link>
-      <Link to="/articles">articles</Link>
+      {/* <Link to="/work">work</Link> */}
+      <Link to="/">home</Link>
+      {/* <Link to="/articles">articles</Link> */}
       <Link to="/about">about</Link>
       <Link to="/contact">contact</Link>
     </div>

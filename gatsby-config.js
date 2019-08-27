@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Christine Vallaure`,
-    description: `Berlin based UX/UI designer with a passion for coding`,
-    author: `@gatsbyjs`,
+    description: `Berlin based UX/UI designer with a passion for code`,
+    author: `Christine Vallaure`,
+    keywords: 'UX, UI, Webdesign, Design, Appdesign, App Design, Web Design, Teaching, Berlin, Sketch, React, InVision, Prototyping'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
