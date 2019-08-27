@@ -4,13 +4,36 @@
 .Hero{
     width: 70%;
     padding-bottom: 50px;
+    h1 {
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 1.2;
+    }
   }
   
-  .Hero h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 1.2;
+  .Portfolio-Hero {
+    padding-top: 50px;
   }
+
+  
+
+  @media (max-width: 640px) {
+    .Hero{
+      width: 100%;
+
+      h1 {
+        margin-top: 80px;
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 1.2;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .Portfolio-Hero {
+      padding-top: 1px;
+    }
+}
   
   

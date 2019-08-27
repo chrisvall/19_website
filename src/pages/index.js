@@ -14,7 +14,7 @@ const IndexPage = () => (
 
     <Hero 
       headline = "Hi, I’m Christine, UX/UI designer with a passion for code."
-      skills="UI / UX / App / Web / Teaching / Freelance / Berlin"
+      skills="UI / UX / App / Web /  Freelance / Berlin"
     />
 
 

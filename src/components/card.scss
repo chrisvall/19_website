@@ -21,8 +21,7 @@
     font-size: 13px;
     font-weight: 400;
     margin: 0 20 0 50;
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
 }
 
 .Card h2 {
@@ -34,6 +33,20 @@
 
 .Card a {
     text-decoration: none;
+}
+
+@media (max-width: 640px) {
+    .CardGroup {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+   h2 {
+            width: 100%;
+            font-size: 20px;
+            line-height: 1.4;
+        }
+    }
+   
 }
 
 
