@@ -18,7 +18,7 @@ const PortfolioPage = () => (
       <div className="Backarrow"><Link to="/"> <img src={back} /></Link></div>
       <div className="Portfolio-Hero">
         <Hero 
-        headline = "TimeTrack – an app for lorem ipsum dorlor sit darum."
+        headline1 = "TimeTrack – an app for lorem ipsum dorlor sit darum."
         skills="UI / UX / App Design  / Wireframing / Specs"
         />
        </div>

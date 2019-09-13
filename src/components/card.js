@@ -7,8 +7,7 @@ const Card = props => (
         <Link to={props.link}>
         <img src={props.image} />
         <h3>{props.title}</h3>
-        <div class="Stroke"></div>
-        {/* is this right react? */}
+        <div className="Stroke"></div>
         <h2>{props.text}</h2>
         </Link>
     </div>

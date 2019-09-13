@@ -13,7 +13,8 @@ const IndexPage = () => (
     <SEO title="Home" />
 
     <Hero 
-      headline = "Hi, I’m Christine, UX/UI designer with a passion for code."
+      headline1 = "Hi, I’m Christine,"
+      headline2 = "UX/UI designer with a passion for code."
       skills="UI / UX / App / Web /  Freelance / Berlin"
     />
 
