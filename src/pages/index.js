@@ -38,9 +38,11 @@ const IndexPage = () => (
         title="Article"
         text= "Design Hand-Off Tools in Comparison: Zeplin, InVision, Avocode and Sketch Measure"/>
         <Card 
-        image={require('../images/imgtest1.jpg')}
-        title="UX / UI / App / Brand Design "
+        linkext="https://medium.com/sketch-app-sources/design-hand-off-tools-in-comparison-zeplin-invision-avocode-and-sketch-measure-f871c5ee5ea3"
+        image={require('../images/article_test1.jpg')}
+        title="ARTICLE "
         text= "TimeTrack - an app to facilitates the tracking of individual project progress"/>
+      
         <Card 
         image={require('../images/imgtest1.jpg')}
         title="UX / UI / Webdesign "
