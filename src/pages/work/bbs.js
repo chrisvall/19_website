@@ -35,9 +35,8 @@ const PortfolioPage = () => (
     <PortfolioImg image= {require('../../images/portfolio/bbs/Vallaure-bbs-07@2x.jpg')} />
     <PortfolioImg image= {require('../../images/portfolio/bbs/Vallaure-bbs-08@2x.jpg')} />
 
-    <Link to="/">Go back to the homepage</Link>
+   
 
-    <Footer></Footer>
 
   </Layout>
 )
