@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Card from '../components/Card';
 import Hero from '../components/Hero';
+import Footer from '../components/Footer';
 // import Image from "../components/image"
 import SEO from "../components/seo"
 
@@ -54,14 +55,13 @@ const IndexPage = () => (
     </div>
   </div>
 
-  <Link to="/test/">Testpage</Link>
-  <Link to="/work/timetrack/">timetrack</Link>
- 
-    <Link to="/page-2/">Go to page 2</Link>
+
+
     </div>
 
- 
   </Layout>
+
+
 )
 
 

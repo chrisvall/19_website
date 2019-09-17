@@ -7,6 +7,7 @@ import Img from "gatsby-image"
 import back from "../../images/backarrow.svg"
 
 import Hero from '../../components/Hero';
+import Footer from '../../components/Footer';
 import PortfolioImg from '../../components/PortfolioImg';
 import PortfolioText from '../../components/PortfolioText';
 
@@ -35,6 +36,8 @@ const PortfolioPage = () => (
     <PortfolioImg image= {require('../../images/portfolio/timetrack/Vallaure-TimeTrack-08@2x.jpg')} />
 
     <Link to="/">Go back to the homepage</Link>
+
+    <Footer></Footer>
 
   </Layout>
 )
