@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:  50px 30px;
+    margin-bottom: 50px;
 }
 
 .Card img {
@@ -24,9 +25,8 @@
  margin-top: 15px;
  &:nth-child(2) {
     width: 90%;
+ }
 }
-}
-
 
 .Stroke {
     width: 30px;
@@ -39,24 +39,28 @@
 .Card h3 {
     font-size: 13px;
     font-weight: 400;
-    margin: 0 20 0 50;
     // text-transform: uppercase; 
 }
 
+.Card h2 {
+    margin-top: -1px;
+    // fix this
+}
 
 
 @media (max-width: 640px) {
     .CardGroup {
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 20px;
-   h2 {
-            width: 100%;
-            font-size: 20px;
-            line-height: 1.4;
-        }
+        grid-gap:  40px;
     }
-   
+    .Card-TextContainer {
+     
+        margin-top: 10px;
+        &:nth-child(2) {
+           width: 100%;
+        }
+}
 }
 
 
