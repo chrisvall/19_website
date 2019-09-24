@@ -1,24 +1,16 @@
 import React from "react"
 
 
-import Layout from "../components/layout"
-import Footer from '../components/Footer';
-import Contact from '../components/contactinfo';
-
-import SEO from "../components/seo"
-
-const IndexPage = () => (
-  <Layout>
- 
-   
-<Contact></Contact>
-
-
-  </Layout>
-
-
-)
+import Header from '../components/Header';
+import Contactinfo from '../components/contactinfo';
 
 
 
-export default IndexPage
+const ContactPage = () => (
+  <div>
+  <Header/>
+    <Contactinfo></Contactinfo>
+  </div>
+  )
+
+export default ContactPage

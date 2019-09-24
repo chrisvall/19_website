@@ -10,7 +10,6 @@ const Contact = props => (
   <p>Berlin – Germany</p>
 </div>
 
-
 )
 
 
