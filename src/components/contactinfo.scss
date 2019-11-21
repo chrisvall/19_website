@@ -8,7 +8,10 @@
     padding-left: $page-margin;
     padding-top: 30vh;
     h1{
-      // color: white;
+      @media (max-width: 640px) {
+        font-size:35px;
+        line-height: 1.2; 
+      }
     }
     p {
       // color: white;
@@ -16,4 +19,32 @@
     }
   }
   
+  @import "layout.scss";
+@import "variables.scss";
+
+
+// might be worth as component
+
+.FooterBottom{
+  position: fixed;
+  width: 100%;
+  transition: $trans-hover;
+  bottom: 0;
+}
+
+.FooterBottomGrid{
+  // background-color:green;
+  display: grid;
+  grid-template-columns: 1fr 150px;
+  margin: 0 $page-margin;
+}
+
+.AgbImpressum{
+  p {
+    float:right;
+    margin-left: 20px;
+    margin-top:0;
+}
+}
+
   

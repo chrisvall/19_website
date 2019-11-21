@@ -2,50 +2,40 @@
 @import "variables.scss";
 /* /move card group to layouts later */
 
-.CardGroup {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:  50px 30px;
-    margin-bottom: 50px;
+
+.CardArticle{
+    float: left;
+    background-color: white;
+    transform: scale(1.02);
+    width: calc((100% - 30px)/2);
 }
 
-.Card img {
+.CardArticle:first-child{
+    margin-right:30px;
+}
+
+.CardArticle img {
     width: 100%;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.Card:hover img {
+.CardArticle:hover img {
     transform: scale(1.02);
 }
 
 
-.Card-TextContainer {
- display: grid;
- grid-template-columns: 45px 1fr;
- margin-top: 15px;
- &:nth-child(2) {
-    width: 90%;
- }
-}
-
-.Stroke {
-    width: 30px;
-    height: 2px;
-    margin-top: 20px;
-    background-color: $text-color;
-}
-
-
-.Card h3 {
-    font-size: 13px;
+.CardArticle h2 {
+    margin-left: 10px;
+    margin: 8px 10px;
     font-weight: 400;
-    // text-transform: uppercase; 
+    font-size: 16px; //CHANG TO RIGHT PLACE!!! h2::first-letter {
+    }
+
+h2.bold {
+    font-weight: 700; 
 }
 
-.Card h2 {
-
-}
-
+   
 
 @media (max-width: 640px) {
     .CardGroup {

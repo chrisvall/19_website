@@ -2,7 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Card from '../components/Card';
+import Card from '../components/card-v2';
+import CardArticle from '../components/card-article';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 // import Image from "../components/image"
@@ -10,7 +11,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <div className="Margin">
+  <div className="Margin">
     <SEO title="Home" />
 
     <Hero 
@@ -20,50 +21,80 @@ const IndexPage = () => (
     />
 
 
- <div className="Cards">
-    <div className="CardGroup">
+    <div className="Cards">
+     <div className="CardGroup">
  
-      <Card 
+      <Card
         link="/work/timetrack/"
-        image={require('../images/imgtest1.jpg')}
-        title="UX / UI / App / Brand Design"
-        text= "Mika – Krebs Therapie Assistent App 
-        für iOS und Android"/>
-        <Card 
+        image={require('../images/intro-vera.jpg')}
+        name= "VERA"
+        description=" Manage all contracts via app"/>
+      <Card
         link="/work/bbs/"
-        image={require('../images/mira.jpg')}
-        title="UX / UI / App / Web / Brand Design "
-        text= "VERA – App zur einfachen Verwaltung von Verträge & Dokumente "/>
-         <Card 
-        image={require('../images/imgtest2.png')}
-        title="Article"
-        text= "Design Hand-Off Tools in Comparison: Zeplin, InVision, Avocode and Sketch Measure"/>
-        <Card 
-        linkext="https://medium.com/sketch-app-sources/design-hand-off-tools-in-comparison-zeplin-invision-avocode-and-sketch-measure-f871c5ee5ea3"
-        image={require('../images/article_test1.jpg')}
-        title="ARTICLE "
-        text= "TimeTrack - an app to facilitates the tracking of individual project progress"/>
-      
-        <Card 
-        image={require('../images/imgtest1.jpg')}
-        title="UX / UI / Webdesign "
-        text= "Factory – Community page building lorem ipsum dolor sit"/>
-        <Card 
-        image={require('../images/imgtest1.jpg')}
-        title="Article "
-        text= "Understand CSS Grid and translate to responsive Sketch layouts"/>
+        image={require('../images/intro-factory.jpg')}
+        name= "FACTORY"
+        description="community building online tool"/>
+        
+      <div>
+        <CardArticle
+        link="https://medium.com/sketch-app-sources/truly-fluid-typography-257a2b434105"
+        image={require('../images/intro-article-1.jpg')}
+        description="Fruly Fluid Typography"/>
+
+        <CardArticle
+        link="https://medium.com/sketch-app-sources/understanding-css-grid-ce92b7aa67cb"
+        image={require('../images/intro-article-2.jpg')}
+        name= "ARTICLE"
+        description="CSS Grid and Sketch"/>
+      </div>
+        
+      <Card
+        link="/work/timetrack/"
+        image={require('../images/intro-timetrack.jpg')}
+        name= "TimeTrack"
+        description="the simple project tracking app"/>
+
+      <Card
+        link="/work/bbs/"
+        image={require('../images/intro-BMW.jpg')}
+        name= "BMW"
+        description="Company website for the BWMi lauch "/>
+        
+      <div>
+        <CardArticle
+        link="https://medium.com/sketch-app-sources/design-hand-off-tools-in-comparison-zeplin-invision-avocode-and-sketch-measure-f871c5ee5ea3"
+        image={require('../images/intro-article-3.jpg')}
+        description="Sketch to React"/>
+
+        <CardArticle
+        link="https://medium.com/sketch-app-sources/design-hand-off-tools-in-comparison-zeplin-invision-avocode-and-sketch-measure-f871c5ee5ea3"
+        image={require('../images/intro-article-4.jpg')}
+        name= "ARTICLE"
+        description="Design Hand-Off Tools"/>
+      </div>
+
+      <Card
+        link="/"
+        image={require('../images/intro-mira.jpg')}
+        name= "Mira"
+        description="Cancer companion App "/>
+        
+        <Card
+        link="/work/bbs/"
+        image={require('../images/intro-bbs.jpg')}
+        name= "BBS"
+        description="New identity and website "/>
+        
+
+      </div>
+
     </div>
+
+
   </div>
 
-
-
-    </div>
-
   </Layout>
-
-
 )
-
 
 
 export default IndexPage
