@@ -34,12 +34,13 @@ h2.bold {
      
 }
 
-   
 
-@media (max-width: 640px) {
+///SET MOBILE CARD DISTRIBUTION HERE!!
+
+@media (max-width: 755px) {
     .CardGroup {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 4fr;
         grid-gap:  40px;
     }
     .Card-TextContainer {

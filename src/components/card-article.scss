@@ -35,22 +35,24 @@ h2.bold {
     font-weight: 700; 
 }
 
+
+
    
 
-@media (max-width: 640px) {
-    .CardGroup {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap:  40px;
-    }
-    .Card-TextContainer {
+// @media (max-width: 640px) {
+//     .CardGroup {
+//         display: grid;
+//         grid-template-columns: 1fr;
+//         grid-gap:  40px;
+//     }
+//     .Card-TextContainer {
      
-        margin-top: 10px;
-        &:nth-child(2) {
-           width: 100%;
-        }
-}
-}
+//         margin-top: 10px;
+//         &:nth-child(2) {
+//            width: 100%;
+//         }
+// }
+// }
 
 
 /* .Card:hover {
