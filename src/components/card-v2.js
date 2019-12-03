@@ -10,7 +10,7 @@ const Card = props => (
             <img src={props.image} />
             <div className="Card-TextContainer">
                     <h2 className="bold">{props.name}</h2> 
-                    <h2> / </h2>
+                    <h2 className="stroke"> / </h2>
                     <h2>{props.description}</h2>
             </div>
         </a>

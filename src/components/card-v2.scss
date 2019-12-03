@@ -8,10 +8,13 @@
     grid-gap:  50px 30px;
     margin-bottom: 50px;
 }
-
-.Card-TextContainer h2{
-    float: left;
+.Card-TextContainer {
+   margin-top:10px;
 }
+
+// .Card-TextContainer h2{
+//     float: left;
+// }
 
 .Card img {
     width: 100%;
@@ -24,15 +27,18 @@
 
 
 .Card h2 {
-    padding-right: 10px;
+    float: left;
+    margin-right: 5px; 
+    margin-bottom: 0px;
+    margin-top:0px;
     font-weight: 400;
     font-size: 16px; //CHANG TO RIGHT PLACE!!! h2::first-letter {
     }
 
 h2.bold {
-    font-weight: 800;
-     
+    font-weight: 800;  
 }
+
 
 
 ///SET MOBILE CARD DISTRIBUTION HERE!!
