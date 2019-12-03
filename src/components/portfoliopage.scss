@@ -3,7 +3,7 @@
 .Backarrow{
     position: fixed;
     z-index: 10000;
-    padding: 35px 0;
+    padding: 30px 0;
     width: 13px;
   }
 
@@ -12,8 +12,11 @@
       transition: $trans-hover;
   }
 
-  
-
+  @media (max-width: 755px) {
+    .Backarrow{
+        padding: 25px 0 20px 0; 
+    }
+}
 
 
 

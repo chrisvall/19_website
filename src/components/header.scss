@@ -2,7 +2,9 @@
 @import "layout.scss";
 @import "variables.scss";
 
-
+.HeaderGroupMob {
+  visibility: hidden;
+}
 
 .Header {
   position: fixed;
@@ -49,6 +51,40 @@
   transition: $trans-hover;
 }
 
+
+////MOBILE //////
+
+@media (max-width: 755px) {
+  .HeaderGroup {
+    display: none;
+  }
+  .HeaderGroupMob {
+    visibility: visible;
+  }
+
+  .Header {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    // background-color: red;
+    padding:  0;
+    // for scroll
+    transition: $trans-hover;
+    top: 0;
+  }
+
+  .HeaderGroupMob {
+    background-color:red;
+    margin-right: $page-margin;
+    margin-top:0;
+    img { //BURGER///
+      float:right;
+      padding: 25px 0 20px 0;  ///adapt to back arrow
+      width: 30px;
+ 
+    }
+  }
+}
 
 
 

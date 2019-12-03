@@ -1,6 +1,7 @@
 import React from "react"
 import Link from 'gatsby-link'
 import './header.scss'
+import burger from '../images/burger.svg'
 
 
 
@@ -30,15 +31,20 @@ handleScroll = (event) => {
   render() {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
-    <div className="HeaderGroup">
-      {/* <Link to="/work">work</Link> */}
-      <Link to="/">home</Link>
-      {/* <Link to="/articles">articles</Link> */}
-      <Link to="/about">about</Link>
-      <Link to="/contact">contact</Link>
-    </div>
-  </div>
-    )
+        <div className="HeaderGroup">
+          {/* <Link to="/work">work</Link> */}
+          <Link to="/">home</Link>
+          {/* <Link to="/articles">articles</Link> */}
+          <Link to="/about">about</Link>
+           <Link to="/contact">contact</Link>
+        </div>
+
+        <div className="HeaderGroupMob">
+         <img src={burger}/>
+        </div>
+
+      </div>
+      )
   }
 }
 
