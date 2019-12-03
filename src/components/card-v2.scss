@@ -8,13 +8,10 @@
     grid-gap:  50px 30px;
     margin-bottom: 50px;
 }
-.Card-TextContainer {
+
+.Card-TextContainer { //setting distances textblock to card
    margin-top:10px;
 }
-
-// .Card-TextContainer h2{
-//     float: left;
-// }
 
 .Card img {
     width: 100%;
@@ -27,16 +24,14 @@
 
 
 .Card h2 {
-    float: left;
-    margin-right: 5px; 
-    margin-bottom: 0px;
-    margin-top:0px;
+    float: left; //all text in a line
+    margin: 0 5px 0 0; // 5 for dash spcing
     font-weight: 400;
     font-size: 16px; //CHANG TO RIGHT PLACE!!! h2::first-letter {
     }
 
 h2.bold {
-    font-weight: 800;  
+    // font-weight: 800;  
 }
 
 
@@ -46,42 +41,13 @@ h2.bold {
 @media (max-width: 755px) {
     .CardGroup {
         display: grid;
-        grid-template-columns: 4fr;
+        grid-template-columns: 1fr;
         grid-gap:  40px;
     }
-    .Card-TextContainer {
-     
-        margin-top: 10px;
-        &:nth-child(2) {
-           width: 100%;
-        }
-}
+    // .Card-TextContainer {
+    //     margin-top: 10px;
+    //     &:nth-child(2) {
+    //        width: 100%;
+    //     }
 }
 
-
-/* .Card:hover {
-    transform: scale(1.1, 1.1);
-    box-shadow: 0 30px 60px rgba(0,0,0,0.5);
-} */
-
-/* .Card:hover img {
-    transform: translateY(-20px);
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-} */
-
-
-
-/* .Card h3 {
-    color: black;
-    font-size: 25px;
-    margin: 20px 0 0 20px;
-    with: 190px;
-}
-
-.Card p {
-    color:black;
-    text-transform: uppercase;
-    font-weight: 600;
-    align-self: end;
-    margin: 0 0 20px 20px;
-} */
