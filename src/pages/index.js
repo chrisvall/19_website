@@ -31,7 +31,7 @@ const IndexPage = () => (
         description=" Manage all contracts via app"/>
       <Card
         link="/work/bbs/"
-        image={require('../images/intro-factory.jpg')}
+        image={require('../images/intro-factory2.jpg')}
         name= "FACTORY"
         description="community building online tool"/>
         
@@ -55,7 +55,7 @@ const IndexPage = () => (
         description="the simple project tracking app"/>
 
       <Card
-        link="/work/bbs/"
+        link="/work/bmw/"
         image={require('../images/intro-BMW.jpg')}
         name= "BMW"
         description="Company website for the BWMi lauch "/>
