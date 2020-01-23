@@ -13,7 +13,7 @@ body{
   // font-family: 'Open Sans', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
   // font-family: 'Cabin', sans-serif;
-   @include responsive-font(1.3vw, 16px, 35px, 16px);
+   @include responsive-font(1.5vw, 16px, 35px, 16px); ///1.3????
   -webkit-font-smoothing:antialiased;
   line-height: 1.5;
   background-color: $bg-color;
@@ -55,11 +55,40 @@ body{
     :hover{
       color:$highlight-color;
       transition: $trans-hover;
- }
-    
+    }
   }
 
+  /////// LINK VERSION 1 ////////////
+ // *******************************//
+
+  //   .syledLink1 {
+  //   color: $text-color;
+  //   padding: 3px;
+  //   background: $bg-color;
+  //   border-bottom: 2px solid $highlight-color;
+  // }
+
+  // .syledLink1:hover {
+  //   color: $highlight-color;
+  //   // background: white;
+  //   border-bottom: 2px solid darken($bg-color, 20%);
+  // }
   
+  /////// LINK VERSION 2 ////////////
+ // *******************************//
+
+  .syledLink1 {
+    color: $highlight-color;
+    padding: 3px;
+    background: $bg-color;
+    border-bottom: 2px solid darken($bg-color, 20%);
+  }
+
+  .syledLink1:hover {
+    color: $text-color;
+    // background: white;
+    border-bottom: 2px solid $highlight-color;
+  }
 
  
 }

@@ -25,8 +25,8 @@ const IndexPage = () => (
      <div className="CardGroup">
  
       <Card
-        link="/work/timetrack/"
-        image={require('../images/intro-vera.jpg')}
+        link="/work/vera/"
+        image={require('../images/intro-vera.gif')}
         name= "VERA"
         description=" Manage all contracts via app"/>
       <Card

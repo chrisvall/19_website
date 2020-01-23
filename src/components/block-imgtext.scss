@@ -1,0 +1,35 @@
+@import "layout.scss";
+@import "variables.scss";
+/* /move card group to layouts later */
+
+
+.ImgText {
+    background-color: white;
+    img {
+        width: 100%;
+    }
+}
+
+.ImgTextGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:  50px 30px;
+    // margin-bottom: 50px;
+}
+
+
+
+///SET MOBILE CARD DISTRIBUTION HERE!!
+
+@media (max-width: 755px) {  ///check what size needed
+    .ImgTextGroup {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:  40px;
+    }
+    // .Card-TextContainer {
+    //     margin-top: 10px;
+    //     &:nth-child(2) {
+    //        width: 100%;
+    //     }
+}

@@ -8,9 +8,9 @@
     padding-left: $page-margin;
     padding-top: 30vh;
     h1{
-      @media (max-width: 640px) {
-        font-size:35px;
-        line-height: 1.2; 
+      @media (max-width: 755px) {
+        @include responsive-font(5vw, 20px, 35px, 30px);
+        line-height: 1.5; 
       }
     }
     p {
@@ -19,8 +19,6 @@
     }
   }
   
-  @import "layout.scss";
-@import "variables.scss";
 
 
 // might be worth as component
@@ -35,7 +33,7 @@
 .FooterBottomGrid{
   // background-color:green;
   display: grid;
-  grid-template-columns: 1fr 150px;
+  grid-template-columns: 1fr 300px;
   margin: 0 $page-margin;
 }
 
