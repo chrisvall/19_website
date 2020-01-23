@@ -1,0 +1,36 @@
+.SkillGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:  50px 30px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.Skill { 
+    text-align: center;
+    h3 {
+ text-transform: uppercase;
+    }
+
+p {
+    line-height: 0.8;
+    font-size: 16px;  ////fix
+}
+
+}
+
+
+
+///SET MOBILE CARD DISTRIBUTION HERE!!
+
+@media (max-width: 755px) {
+    .SkillGroup {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:  40px;
+    }
+    .Skill { 
+        // text-align: left;
+    }
+}
+
