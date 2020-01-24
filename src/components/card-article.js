@@ -4,7 +4,7 @@ import './card-article.scss'
 
 const CardArticle = props => (
     <div className="CardArticle">
-        <a href={props.link} target="_blank" >
+        <a href={props.link} target="_blank" rel="noopener noreferrer" >
             <img src={props.image} />
             <div className="CardArticle-TextContainer">
                 <div>

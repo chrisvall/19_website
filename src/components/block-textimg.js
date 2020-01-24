@@ -12,7 +12,7 @@ const TextImg = props => (
                 <div>
                     <h2>{props.title}</h2>
                     <p>{props.description}</p>
-                    <a className="syledLink1" href={props.link} target="_blank"> 
+                    <a className="syledLink1" href={props.link} target="_blank" rel="noopener noreferrer"> 
                     {props.linkname}
                     </a>
                 </div>

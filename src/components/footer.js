@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.scss'
-import { Link } from "gatsby"
+
 
 
 const Footer = props => (
@@ -9,7 +9,7 @@ const Footer = props => (
          <p className="bold">Contact me:</p>
          <a href="mailto:mail@christinevallaure.com?subject=Mail via Website"><p>mail@christinevallaure.com</p></a>
          <a href="tel:+4917610064926"><p>+49 176 1006 49 26</p></a>
-         <a href="https://www.linkedin.com/in/christinevallaure/" target="_blank" ><p>LinkedIn</p></a>
+         <a href="https://www.linkedin.com/in/christinevallaure/" target="_blank" rel="noopener noreferrer"><p>LinkedIn</p></a>
       </div>
 
       <br/><br/>

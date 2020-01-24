@@ -11,7 +11,7 @@ const ImgText = props => (
                 <img src={props.image} />
                 <div>
                     <p>{props.description}</p>
-                    <a className="syledLink1" href={props.link} target="_blank"> 
+                    <a className="syledLink1" href={props.link} target="_blank" rel="noopener noreferrer"> 
                     {props.linkname}
                     </a>
                 </div>

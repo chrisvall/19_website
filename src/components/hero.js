@@ -1,6 +1,6 @@
 import React from 'react'
 import './hero.scss'
-import { Link } from "gatsby"
+
 
 
 const Hero = props => (
