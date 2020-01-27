@@ -64,13 +64,14 @@ const About = () => (
 
 
     <TextImg
-        title = "My passion Project"
+        subtitle = "My passion Project"
+        title = "Teaching digital design"
         image={require('../images/book.jpg')}
         description = "I am a freelance creative, designing (and occasionally building) Websitea and Apps. 
-        I’m Christine. I’m a designer who codes. I’ve worked internationally, in-house, and remotely on projects for leading brands, agencies, startups, and charities. I care deeply about creating world-class, useful, and beautiful products that help people and make a difference. I can be as involved in your project as you need me to be; from the seed of the idea, to sketches, creative direction, design, copywriting, system design, and even the front-end build. (copied from Andrew couldwell)
-        My passion is teaching lorem ipsum. I have workd for over 10 years moved from banding to lorem ipsum"
-        linkname = "LinkedIn"
-        link="https://www.linkedin.com/in/christinevallaure/"
+        I’m Christine. I’m a designer who codes. I’ve worked internationally, in-house, and remotely on projects for leading brands, agencies, startups, and charities. I care deeply about creating world-class, useful, and beautiful products that help people and make a difference. I can be as involved in your project as you need me to be; from the seed of the idea, to sketches, creative direction, design, copywriting.
+      "
+        linkname = "Medium Articles"
+        link="https://medium.com/@christinevallaure/"
       />
         
 

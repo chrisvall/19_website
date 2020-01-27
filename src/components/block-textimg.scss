@@ -5,15 +5,24 @@
 
 .TextImg {
     background-color: white;
-    img {
-        width: 100%;
+    padding: 100px 0;
+    h3 {
+        text-transform: uppercase;
     }
 }
+
 
 .TextImgGroup {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:  50px 30px;
+    h1{
+        @include responsive-font(4vw, 23px, 100px, 50px);
+    }
+
+    img {
+        width: 100%;
+    }
     // margin-bottom: 50px;
 }
 
@@ -25,7 +34,7 @@
     .TextImgGroup {
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap:  40px;
+        grid-gap:  40px
     }
     // .Card-TextContainer {
     //     margin-top: 10px;
