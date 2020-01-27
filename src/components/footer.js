@@ -6,7 +6,7 @@ import './footer.scss'
 const Footer = props => (
   <div className="Footer">
       <div className="Footer-part1">
-         <p className="bold">Contact me:</p>
+         <h3 className="bold">Contact me:</h3>
          <a href="mailto:mail@christinevallaure.com?subject=Mail via Website"><p>mail@christinevallaure.com</p></a>
          <a href="tel:+4917610064926"><p>+49 176 1006 49 26</p></a>
          <a href="https://www.linkedin.com/in/christinevallaure/" target="_blank" rel="noopener noreferrer"><p>LinkedIn</p></a>
@@ -20,7 +20,7 @@ const Footer = props => (
       </div>
 
       <div className="Footer-part3">
-         <a href=""><p>Impressum</p></a>
+         <a href="/imprint"><p>Impressum</p></a>
          <a href=""><p>AGB</p></a>
       </div>
 </div>

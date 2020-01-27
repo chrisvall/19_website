@@ -51,7 +51,7 @@ const IndexPage = () => (
       <Card
         link="/work/timetrack/"
         image={require('../images/intro-timetrack.jpg')}
-        name= "TimeTrack"
+        name= "TIME TRACK"
         description="the simple project tracking app"/>
 
       <Card
@@ -76,7 +76,7 @@ const IndexPage = () => (
       <Card
         link="/"
         image={require('../images/intro-mira.jpg')}
-        name= "Mira"
+        name= "MIRA"
         description="Cancer companion App "/>
         
         <Card

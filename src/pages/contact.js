@@ -19,7 +19,7 @@ const ContactPage = () => (
               <a href="http://www.christinevallaure.com">Christine Vallaure</a> */}
       </div>
       <div className="AgbImpressum">
-          <a href=""><p>Impressum</p></a>
+          <a href="/imprint"><p>Impressum</p></a>
           <a href=""><p>AGB</p></a>
       </div>
     </div>
