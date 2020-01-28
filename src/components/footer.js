@@ -20,8 +20,8 @@ const Footer = props => (
       </div>
 
       <div className="Footer-part3">
-         <a href="/imprint"><p>Impressum</p></a>
-         <a href=""><p>AGB</p></a>
+         <a href="/imprint"><p>imprint</p></a>
+         <a href="/terms"><p>terms</p></a>
       </div>
 </div>
 )
