@@ -106,3 +106,8 @@ body{
 }
 
 
+video {
+  width: 100%;
+  margin: -4px 0; //strange fix
+  padding: 0;
+}

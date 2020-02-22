@@ -30,7 +30,7 @@ const IndexPage = () => (
         name= "VERA"
         description=" Manage all contracts via app"/>
       <Card
-        link="/work/bbs/"
+        link="/work/factory/"
         image={require('../images/intro-factory2.jpg')}
         name= "FACTORY"
         description="community building online tool"/>
@@ -74,9 +74,9 @@ const IndexPage = () => (
       </div>
 
       <Card
-        link="/"
+        link="/work/mika/"
         image={require('../images/intro-mira.jpg')}
-        name= "MIRA"
+        name= "MIKA"
         description="Cancer companion App "/>
         
         <Card
