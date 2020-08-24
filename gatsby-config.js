@@ -4,7 +4,7 @@ module.exports = {
     description: `Berlin based UX/UI Designer with a passion for code`,
     author: `Christine Vallaure`,
     keywords: 'UX, UI, Webdesign, Design, Appdesign, App Design, Web Design, Teaching, Berlin, Sketch, React, InVision, Prototyping',
-    icon: `src/images/_christinevallaure.jpg`,//new
+    image: `src/images/_christinevallaure.jpg`,//new
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

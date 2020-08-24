@@ -49,9 +49,8 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: site.siteMetadata.image,   //added but nor working
+          content:  'src/images/_christinevallaure.jpg',  
         },
-      
         {
           property: `og:type`,
           content: `website`,
