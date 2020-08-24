@@ -2,10 +2,15 @@
 
 
 .PortfolioText p {
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 50px 0;
     text-align: center;
+    @include animation('slide-up 2s');
   }
 
-  
+@media (max-width: 755px) {
+    .PortfolioText p {
+      width: 100%;
+    }
+} 

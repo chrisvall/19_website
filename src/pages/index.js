@@ -10,80 +10,102 @@ import Footer from '../components/Footer';
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
+
+<Layout>
+
   <div className="Margin">
     <SEO title="Home" />
 
-    <Hero 
+    {/* <Hero 
       headline1 = "Hi, I’m Christine,"
-      headline2 = "UX/UI designer with a passion for code."
-      skills="UI / UX / App / Web /  Freelance / Berlin"
-    />
+      headline2 = "UX/UI Designer with a passion for code."
+      skills="christinevallaure@gmail.com"
+      tel="+49 176 1006 4926"
+    /> */}
 
+    <div className="Hero">
+        <div className="HeroGroup">
+          <div className="HeroH1">
+            <h1>Hi, I'm Christine</h1>
+            <h1>UX/UI Designer with a passion for code.</h1>
+          </div>
+          <a href="mailto:mail@christinevallaure.com?subject=Mail via Website"><p className="block mail"> mail@christinevallaure.com</p></a>
+          <a href="tel:+4917610064926" ><p className="block tel">+49 176 1006 49 26</p></a>
+        </div>
+    </div>
 
     <div className="Cards">
      <div className="CardGroup">
  
-      <Card
-        link="/work/vera/"
-        image={require('../images/intro-vera.gif')}
-        name= "VERA"
-        description=" Manage all contracts via app"/>
+      <div className="one">
+        <Card
+          link="/work/vera/"
+          image={require('../images/intro-vera.gif')}
+          name= "VERA"
+          description=" manage all contracts via app"/>
+      </div>
+
+      <div className="two">
       <Card
         link="/work/factory/"
         image={require('../images/intro-factory2.jpg')}
         name= "FACTORY"
-        description="community building online tool"/>
-        
-      <div>
-        <CardArticle
-        link="https://medium.com/sketch-app-sources/truly-fluid-typography-257a2b434105"
-        image={require('../images/intro-article-1.jpg')}
-        description="Fruly Fluid Typography"/>
-
-        <CardArticle
-        link="https://medium.com/sketch-app-sources/understanding-css-grid-ce92b7aa67cb"
-        image={require('../images/intro-article-2.jpg')}
-        name= "ARTICLE"
-        description="CSS Grid and Sketch"/>
+        description="community building tool"/>
       </div>
         
+      <div className= "CardArticleGroup three">
+        <CardArticle
+        link="https://medium.com/sketch-app-sources/truly-fluid-typography-257a2b434105"
+        image={require('../images/article-1.jpg')}/>
+
+        <CardArticle
+         className = "2"
+        link="https://medium.com/sketch-app-sources/understanding-css-grid-ce92b7aa67cb"
+        image={require('../images/article-2.jpg')}/>
+      </div>
+        
+      <div className= "four">
       <Card
         link="/work/timetrack/"
         image={require('../images/intro-timetrack.jpg')}
         name= "TIME TRACK"
-        description="the simple project tracking app"/>
+        description="the project tracking app"/>
+      </div>
 
+
+      <div className= "five">
+      <Card
+        link="/work/mika/"
+        image={require('../images/intro-mika.gif')}
+        name= "MIKA"
+        description="cancer companion app"/>
+      </div>
+        
+      <div className="CardArticleGroup six">
+        <CardArticle
+        link="https://medium.com/sketch-app-sources/design-hand-off-tools-in-comparison-zeplin-invision-avocode-and-sketch-measure-f871c5ee5ea3"
+        image={require('../images/article3.jpg')}/>
+
+        <CardArticle
+        link="https://medium.com/@christinevallaure"
+        image={require('../images/article4.jpg')}/>
+      </div>
+
+      <div className= "seven">
       <Card
         link="/work/bmw/"
         image={require('../images/intro-BMW.jpg')}
         name= "BMW"
-        description="Company website for the BWMi lauch "/>
-        
-      <div>
-        <CardArticle
-        link="https://medium.com/sketch-app-sources/design-hand-off-tools-in-comparison-zeplin-invision-avocode-and-sketch-measure-f871c5ee5ea3"
-        image={require('../images/intro-article-3.jpg')}
-        description="Sketch to React"/>
-
-        <CardArticle
-        link="https://medium.com/sketch-app-sources/design-hand-off-tools-in-comparison-zeplin-invision-avocode-and-sketch-measure-f871c5ee5ea3"
-        image={require('../images/intro-article-4.jpg')}
-        name= "ARTICLE"
-        description="Design Hand-Off Tools"/>
+        description="BMWi launch website"/>
       </div>
-
-      <Card
-        link="/work/mika/"
-        image={require('../images/intro-mira.jpg')}
-        name= "MIKA"
-        description="Cancer companion App "/>
-        
+      
+      <div className= "seven">
         <Card
         link="/work/bbs/"
         image={require('../images/intro-bbs.jpg')}
         name= "BBS"
-        description="New identity and website "/>
+        description="new identity and website"/>
+      </div>
         
 
       </div>

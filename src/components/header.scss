@@ -14,6 +14,7 @@
   // for scroll
   transition: $trans-hover;
   top: 0;
+  @include animation('fade-in 3s');
 }
 
 .HeaderGroup {
@@ -51,6 +52,8 @@
 }
 
 
+
+
 ////MOBILE //////
 
 @media (max-width: 755px) {
@@ -73,10 +76,10 @@
   }
 
   .HeaderGroupMob {
-    background-color:red;
     margin-right: $page-margin;
     margin-top:0;
     img { //BURGER///
+      @include animation('fade-in 1s');
       float:right;
       padding: 20px 0 20px 0;  ///adapt to back arrow
       width: 30px;
@@ -84,6 +87,45 @@
     }
   }
 }
+
+
+///MOB OVERLAY
+
+.MobMenuGroup {
+  @include animation('fade-in 1s');
+  position: fixed;
+
+  width: 100%;
+  height: 100%;
+  background-color:$bg-color ;
+  text-align: center;
+  padding-top: 30vh;
+
+  h1 {
+      padding-bottom: 20px;
+      font-size: 35px;
+  }
+  img { //CLOSE
+      position: fixed;
+      top: 0;
+      right: $page-margin;
+      width: 30px;
+      @include animation('fade-in 1s');
+  }
+  
+}
+
+.inactive {
+display: none;
+}
+
+.active {
+  display: block;
+  }
+  
+
+
+
 
 
 

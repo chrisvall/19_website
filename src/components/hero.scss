@@ -3,19 +3,22 @@
 
 .Hero{
     width: 65%;
+    @include animation('slide-up 2s');
 .HeroH1 {
   margin: 30px 0 0 0;
 } 
-    p {
-      margin-bottom:50px;
-    }
+p {
+    margin-bottom:50px;
   }
+}
 .Portfolio-Hero {
     padding-top: 50px;
   }
 
+.mail {
+  margin-right: 10px;
+}
 
-  
 
   @media (max-width: 750px) {
     .Hero{
@@ -38,4 +41,16 @@
     }
 }
   
+
+//  mail and phone break in mob
+@media (max-width: 850px) {
+ .Hero {
+  p.mail{
+      margin-bottom:0;
+    }
+  p.tel{
+    margin-top: 0;
+  }
+  }
+ }
   

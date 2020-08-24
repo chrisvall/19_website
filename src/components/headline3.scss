@@ -1,0 +1,28 @@
+@import "layout.scss";
+@import "variables.scss";
+
+
+.stroke:before{
+    content: '\00a0';
+    height: 1px;
+    width: 40px;
+    background: #fff;
+    margin: 10px 10px;
+    // margin: 10px 10px 0 6px;
+    float: left;
+}
+
+// .row {
+//     width: 100%;
+//     margin: 0 auto;
+//   }
+  .block {
+    display: inline-block;
+  }
+
+  //stroke adjust for large screens
+  @media (min-width: 1450px) {
+      .stroke:before{
+        margin: 15px 10px;
+    }
+  }

@@ -6,48 +6,56 @@
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-gap:  50px 30px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
+    @include animation('slide-up 2s');
 }
 
-.Card-TextContainer { //setting distances textblock to card
-   margin-top:10px;
+.Card {
+   
 }
 
 .Card img {
     width: 100%;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
 }
 
 .Card:hover img {
     transform: scale(1.02);
 }
 
-
 .Card h2 {
-    float: left; //all text in a line
-    margin: 0 5px 0 0; // 5 for dash spcing
+    // float: left; //all text in a line
+    display: inline-block;
     font-weight: 400;
-    font-size: 16px; //CHANG TO RIGHT PLACE!!! h2::first-letter {
+    // font-size: 16px; //CHANG TO RIGHT PLACE!!! h2::first-letter {
     }
 
 h2.bold {
-    // font-weight: 800;  
+    font-weight: 700;  
 }
 
 
 
 ///SET MOBILE CARD DISTRIBUTION HERE!!
 
-@media (max-width: 755px) {
+@media (max-width: 860px) {
     .CardGroup {
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap:  40px;
+        grid-gap:  30px;
+        margin-bottom: 80px;
     }
-    // .Card-TextContainer {
-    //     margin-top: 10px;
-    //     &:nth-child(2) {
-    //        width: 100%;
-    //     }
+}
+
+
+@media (max-width: 350px) {
+    .Card h2 {
+        margin:0;
+        display: block;
+    }
+    .Card .stroke:after {
+        display:none;
+    }
 }
 

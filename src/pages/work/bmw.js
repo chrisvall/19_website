@@ -19,14 +19,14 @@ const PortfolioPage = () => (
       <div className="Backarrow"><Link to="/"> <img src={back} /></Link></div>
       <div className="Portfolio-Hero">
         <Hero 
-        headline1 = "BMW –  page update for the new BMWi "
-        skills="ONLINE BRANDING | WEB DESIGN | TEMPLATES | GRAPHIC DESIGN"
+        headline1 = "BMW – introducing the new BMWi with a page update."
+        skills="UI – online branding – web design – template design"
         />
        </div>
     </div>
   
     <PortfolioImg image={require('../../images/portfolio/bmw/2xlarge/Vallaure-BMW-1@2x.jpg')}/>
-    <PortfolioText text="The BMW Design Template creates the base for the worldwide rollout of the BMW website and is an integral element for brand communication. I was part of the BMW Digital Design team (freelancing via Interone) for this global project and was involved in CRM topics (MyBMW), the Car Configurator and the online implementation of BMWi."/>
+    <PortfolioText text="The BMW Design Template creates the base for the worldwide rollout of the BMW website and is an integral element for brand communication. I was part of the BMW Digital Design team (freelancing via Interone) for this global project and was involved in CRM topics (MyBMW), the Car Configurator, and the online implementation of BMWi."/>
     <PortfolioImg image= {require('../../images/portfolio/bmw/2xlarge/Vallaure-BMW-2@2x.jpg')} />
     <PortfolioImg image= {require('../../images/portfolio/bmw/2xlarge/Vallaure-BMW-3@2x.jpg')} />
     <PortfolioImg image= {require('../../images/portfolio/bmw/2xlarge/Vallaure-BMW-4@2x.jpg')} />

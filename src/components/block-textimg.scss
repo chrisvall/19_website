@@ -3,42 +3,28 @@
 /* /move card group to layouts later */
 
 
-.TextImg {
-    background-color: white;
-    padding: 100px 0;
-    h3 {
-        text-transform: uppercase;
-    }
-}
-
-
 .TextImgGroup {
+    margin-top:50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:  50px 30px;
-    h1{
-        @include responsive-font(4vw, 23px, 100px, 50px);
-    }
-
+    margin-bottom: 100px;
+    @include animation('slide-up 2s');
     img {
         width: 100%;
     }
-    // margin-bottom: 50px;
+    p{margin-top: 10px;}
 }
 
 
 
 ///SET MOBILE CARD DISTRIBUTION HERE!!
 
-@media (max-width: 755px) {  ///check what size needed
+@media (max-width: 1000px) {  ///check what size needed
     .TextImgGroup {
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap:  40px
+        grid-gap:  20px 30px;
     }
-    // .Card-TextContainer {
-    //     margin-top: 10px;
-    //     &:nth-child(2) {
-    //        width: 100%;
-    //     }
 }
+ 

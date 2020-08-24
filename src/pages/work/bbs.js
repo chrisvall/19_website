@@ -19,8 +19,8 @@ const PortfolioPage = () => (
       <div className="Backarrow"><Link to="/"> <img src={back} /></Link></div>
       <div className="Portfolio-Hero">
         <Hero 
-        headline1 = "BBS – an app for lorem ipsum dorlor sit darum."
-        skills="UI / UX / App Design  / Wireframing / Specs"
+        headline1 = "Berlin British School – a new look and feel for the school's website."
+        skills="UX – UI – app design – wireframing – specs"
         />
        </div>
     </div>

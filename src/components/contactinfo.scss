@@ -7,17 +7,34 @@
     // background-color: #2C3043;
     padding-left: $page-margin;
     padding-top: 30vh;
+    @include animation('slide-up 2s');
+    // ipads
     h1{
       @media (max-width: 755px) {
         @include responsive-font(5vw, 20px, 35px, 30px);
         line-height: 1.5; 
       }
     }
+      //mobiles
+    h1{
+      @media (max-width: 755px) {
+        @include responsive-font(6.5vw, 20px, 28px, 30px);
+        line-height: 1.5; 
+      }
+    }
+
+
+
     p {
       // color: white;
       font-size: 18px;
     }
+    .stroke:after {
+      width: 30px;
+    }
   }
+
+
   
 
 
@@ -28,6 +45,7 @@
   width: 100%;
   transition: $trans-hover;
   bottom: 0;
+  @include animation('fade-in 3s');
 }
 
 .FooterBottomGrid{

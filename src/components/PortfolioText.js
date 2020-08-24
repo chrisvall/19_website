@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 
 const PortfolioText = props => (
-  <div className="PortfolioText">
+  <div className="PortfolioText Margin">
           <p>{props.text}</p>
 </div>
 )
